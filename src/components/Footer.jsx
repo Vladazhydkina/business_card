@@ -11,7 +11,7 @@ function Footer(){
             <p className="spaced-text">
                 Add to your contacts👇
             </p>
-            <a href="public/contact.vcf" download className="contact_button">add contacts</a>
+            <a href="https://pmkopgnvfxs5s3us.public.blob.vercel-storage.com/zhydkina_contact-mDbgjCPV75Hx9nRRbHltTPYGpAybsP.vcf" download className="contact_button">add contacts</a>
         </div>
     )
 }
