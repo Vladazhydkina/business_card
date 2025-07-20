@@ -13,4 +13,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # System files
-Thumbs.db
+Thumbs.dbdist/
