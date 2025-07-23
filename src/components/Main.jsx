@@ -37,12 +37,15 @@ function Main(props){
 function ContactCard(props){
     const Icon = props.icon;
     return(
-        <div className="contact-block">
-            <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <a 
+            href={props.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-block"
+            >    
             <Icon sx={{ color: "#A7A7A7" }}/>
             <p className="contact-text">{props.label}</p>
             </a>
-        </div>
     )
 }
 
